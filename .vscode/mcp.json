@@ -1,0 +1,9 @@
+{
+	"servers": {
+		"odk-docs-docs": {
+			"type": "http",
+			"url": "https://odk-docs.mcp.kapa.ai"
+		}
+	},
+	"inputs": []
+}

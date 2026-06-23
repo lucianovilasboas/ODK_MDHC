@@ -1,0 +1,10 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "odk-docs": {
+      "type": "remote",
+      "url": "https://odk-docs.mcp.kapa.ai",
+      "enabled": true
+    }
+  }
+}

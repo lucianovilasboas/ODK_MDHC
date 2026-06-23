@@ -1,0 +1,445 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:odk="http://www.opendatakit.org/xforms">
+  <h:head>
+    <h:title>Pesquisa de Intenção de Voto - Presidente 2026</h:title>
+    <model odk:xforms-version="1.0.0">
+      <instance>
+        <data id="pesquisa_intencao_voto_presidente_2026" version="1">
+          <start/>
+          <end/>
+          <deviceid/>
+          <entrevistador/>
+          <data/>
+          <municipio/>
+          <uf/>
+          <sexo/>
+          <idade/>
+          <escolaridade/>
+          <renda_familiar/>
+          <voto_espontaneo/>
+          <outro_espontaneo/>
+          <voto_estimulado/>
+          <rejeicao/>
+          <avaliacao_governo/>
+          <observacoes/>
+          <meta>
+            <instanceID/>
+            <instanceName/>
+          </meta>
+        </data>
+      </instance>
+      <instance id="uf">
+        <root>
+          <item>
+            <name>AC</name>
+            <label>Acre</label>
+          </item>
+          <item>
+            <name>AL</name>
+            <label>Alagoas</label>
+          </item>
+          <item>
+            <name>AP</name>
+            <label>Amapá</label>
+          </item>
+          <item>
+            <name>AM</name>
+            <label>Amazonas</label>
+          </item>
+          <item>
+            <name>BA</name>
+            <label>Bahia</label>
+          </item>
+          <item>
+            <name>CE</name>
+            <label>Ceará</label>
+          </item>
+          <item>
+            <name>DF</name>
+            <label>Distrito Federal</label>
+          </item>
+          <item>
+            <name>ES</name>
+            <label>Espírito Santo</label>
+          </item>
+          <item>
+            <name>GO</name>
+            <label>Goiás</label>
+          </item>
+          <item>
+            <name>MA</name>
+            <label>Maranhão</label>
+          </item>
+          <item>
+            <name>MT</name>
+            <label>Mato Grosso</label>
+          </item>
+          <item>
+            <name>MS</name>
+            <label>Mato Grosso do Sul</label>
+          </item>
+          <item>
+            <name>MG</name>
+            <label>Minas Gerais</label>
+          </item>
+          <item>
+            <name>PA</name>
+            <label>Pará</label>
+          </item>
+          <item>
+            <name>PB</name>
+            <label>Paraíba</label>
+          </item>
+          <item>
+            <name>PR</name>
+            <label>Paraná</label>
+          </item>
+          <item>
+            <name>PE</name>
+            <label>Pernambuco</label>
+          </item>
+          <item>
+            <name>PI</name>
+            <label>Piauí</label>
+          </item>
+          <item>
+            <name>RJ</name>
+            <label>Rio de Janeiro</label>
+          </item>
+          <item>
+            <name>RN</name>
+            <label>Rio Grande do Norte</label>
+          </item>
+          <item>
+            <name>RS</name>
+            <label>Rio Grande do Sul</label>
+          </item>
+          <item>
+            <name>RO</name>
+            <label>Rondônia</label>
+          </item>
+          <item>
+            <name>RR</name>
+            <label>Roraima</label>
+          </item>
+          <item>
+            <name>SC</name>
+            <label>Santa Catarina</label>
+          </item>
+          <item>
+            <name>SP</name>
+            <label>São Paulo</label>
+          </item>
+          <item>
+            <name>SE</name>
+            <label>Sergipe</label>
+          </item>
+          <item>
+            <name>TO</name>
+            <label>Tocantins</label>
+          </item>
+        </root>
+      </instance>
+      <instance id="sexo">
+        <root>
+          <item>
+            <name>masculino</name>
+            <label>Masculino</label>
+          </item>
+          <item>
+            <name>feminino</name>
+            <label>Feminino</label>
+          </item>
+        </root>
+      </instance>
+      <instance id="escolaridade">
+        <root>
+          <item>
+            <name>sem_instrucao</name>
+            <label>Sem instrução</label>
+          </item>
+          <item>
+            <name>fund_incompleto</name>
+            <label>Ensino Fundamental incompleto</label>
+          </item>
+          <item>
+            <name>fund_completo</name>
+            <label>Ensino Fundamental completo</label>
+          </item>
+          <item>
+            <name>medio_incompleto</name>
+            <label>Ensino Médio incompleto</label>
+          </item>
+          <item>
+            <name>medio_completo</name>
+            <label>Ensino Médio completo</label>
+          </item>
+          <item>
+            <name>superior_incompleto</name>
+            <label>Ensino Superior incompleto</label>
+          </item>
+          <item>
+            <name>superior_completo</name>
+            <label>Ensino Superior completo</label>
+          </item>
+          <item>
+            <name>pos_graduacao</name>
+            <label>Pós-graduação</label>
+          </item>
+        </root>
+      </instance>
+      <instance id="renda_familiar">
+        <root>
+          <item>
+            <name>sem_renda</name>
+            <label>Sem renda</label>
+          </item>
+          <item>
+            <name>ate_1sm</name>
+            <label>Até 1 salário mínimo</label>
+          </item>
+          <item>
+            <name>de_1a2sm</name>
+            <label>De 1 a 2 salários mínimos</label>
+          </item>
+          <item>
+            <name>de_2a5sm</name>
+            <label>De 2 a 5 salários mínimos</label>
+          </item>
+          <item>
+            <name>de_5a10sm</name>
+            <label>De 5 a 10 salários mínimos</label>
+          </item>
+          <item>
+            <name>mais_10sm</name>
+            <label>Mais de 10 salários mínimos</label>
+          </item>
+        </root>
+      </instance>
+      <instance id="voto_espontaneo">
+        <root>
+          <item>
+            <name>lula</name>
+            <label>Lula</label>
+          </item>
+          <item>
+            <name>flavio_bolsonaro</name>
+            <label>Flávio Bolsonaro</label>
+          </item>
+          <item>
+            <name>zema</name>
+            <label>Zema</label>
+          </item>
+          <item>
+            <name>caiado</name>
+            <label>Caiado</label>
+          </item>
+          <item>
+            <name>outro</name>
+            <label>Outro</label>
+          </item>
+          <item>
+            <name>branco_nulo</name>
+            <label>Branco / Nulo</label>
+          </item>
+          <item>
+            <name>indeciso</name>
+            <label>Indeciso / Não respondeu</label>
+          </item>
+        </root>
+      </instance>
+      <instance id="voto_estimulado">
+        <root>
+          <item>
+            <name>lula</name>
+            <label>Lula</label>
+          </item>
+          <item>
+            <name>flavio_bolsonaro</name>
+            <label>Flávio Bolsonaro</label>
+          </item>
+          <item>
+            <name>zema</name>
+            <label>Zema</label>
+          </item>
+          <item>
+            <name>caiado</name>
+            <label>Caiado</label>
+          </item>
+          <item>
+            <name>outro</name>
+            <label>Outro</label>
+          </item>
+          <item>
+            <name>branco_nulo</name>
+            <label>Branco / Nulo</label>
+          </item>
+          <item>
+            <name>indeciso</name>
+            <label>Indeciso / Não sabe</label>
+          </item>
+        </root>
+      </instance>
+      <instance id="rejeicao">
+        <root>
+          <item>
+            <name>lula</name>
+            <label>Lula</label>
+          </item>
+          <item>
+            <name>flavio_bolsonaro</name>
+            <label>Flávio Bolsonaro</label>
+          </item>
+          <item>
+            <name>zema</name>
+            <label>Zema</label>
+          </item>
+          <item>
+            <name>caiado</name>
+            <label>Caiado</label>
+          </item>
+          <item>
+            <name>nenhum</name>
+            <label>Nenhum</label>
+          </item>
+          <item>
+            <name>todos</name>
+            <label>Todos</label>
+          </item>
+          <item>
+            <name>indeciso</name>
+            <label>Indeciso / Não sabe</label>
+          </item>
+        </root>
+      </instance>
+      <instance id="avaliacao_governo">
+        <root>
+          <item>
+            <name>otima</name>
+            <label>Ótima</label>
+          </item>
+          <item>
+            <name>boa</name>
+            <label>Boa</label>
+          </item>
+          <item>
+            <name>regular</name>
+            <label>Regular</label>
+          </item>
+          <item>
+            <name>ruim</name>
+            <label>Ruim</label>
+          </item>
+          <item>
+            <name>pessima</name>
+            <label>Péssima</label>
+          </item>
+          <item>
+            <name>nao_sabe</name>
+            <label>Não sabe</label>
+          </item>
+        </root>
+      </instance>
+      <bind nodeset="/data/start" jr:preload="timestamp" type="dateTime" jr:preloadParams="start"/>
+      <bind nodeset="/data/end" jr:preload="timestamp" type="dateTime" jr:preloadParams="end"/>
+      <bind nodeset="/data/deviceid" jr:preload="property" type="string" jr:preloadParams="deviceid"/>
+      <bind nodeset="/data/entrevistador" type="string" required="true()"/>
+      <bind nodeset="/data/data" type="date" required="true()"/>
+      <bind nodeset="/data/municipio" type="string" required="true()"/>
+      <bind nodeset="/data/uf" type="string" required="true()"/>
+      <bind nodeset="/data/sexo" type="string" required="true()"/>
+      <bind nodeset="/data/idade" type="int" required="true()" constraint=". &gt;= 16 and . &lt;= 120" jr:constraintMsg="Idade deve estar entre 16 e 120 anos"/>
+      <bind nodeset="/data/escolaridade" type="string" required="true()"/>
+      <bind nodeset="/data/renda_familiar" type="string" required="true()"/>
+      <bind nodeset="/data/voto_espontaneo" type="string" required="true()"/>
+      <bind nodeset="/data/outro_espontaneo" type="string" required="true()" relevant=" /data/voto_espontaneo  = 'outro'"/>
+      <bind nodeset="/data/voto_estimulado" type="string" required="true()"/>
+      <bind nodeset="/data/rejeicao" type="string" required="true()"/>
+      <bind nodeset="/data/avaliacao_governo" type="string" required="true()"/>
+      <bind nodeset="/data/observacoes" type="string"/>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" jr:preload="uid"/>
+      <bind nodeset="/data/meta/instanceName" type="string" calculate="concat('IntencaoVoto - ',  /data/entrevistador , ' - ', format-date-time( /data/start , '%d/%m/%Y'))"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/data/entrevistador">
+      <label>Nome do entrevistador</label>
+    </input>
+    <input ref="/data/data">
+      <label>Data da entrevista</label>
+    </input>
+    <input ref="/data/municipio">
+      <label>Município</label>
+      <hint>Digite o nome do município</hint>
+    </input>
+    <select1 ref="/data/uf">
+      <label>Unidade Federativa</label>
+      <itemset nodeset="instance('uf')/root/item">
+        <value ref="name"/>
+        <label ref="label"/>
+      </itemset>
+    </select1>
+    <select1 ref="/data/sexo">
+      <label>Sexo</label>
+      <itemset nodeset="instance('sexo')/root/item">
+        <value ref="name"/>
+        <label ref="label"/>
+      </itemset>
+    </select1>
+    <input ref="/data/idade">
+      <label>Idade</label>
+    </input>
+    <select1 ref="/data/escolaridade">
+      <label>Escolaridade</label>
+      <itemset nodeset="instance('escolaridade')/root/item">
+        <value ref="name"/>
+        <label ref="label"/>
+      </itemset>
+    </select1>
+    <select1 ref="/data/renda_familiar">
+      <label>Renda familiar mensal</label>
+      <itemset nodeset="instance('renda_familiar')/root/item">
+        <value ref="name"/>
+        <label ref="label"/>
+      </itemset>
+    </select1>
+    <select1 ref="/data/voto_espontaneo">
+      <label>Se a eleição para presidente fosse hoje, em quem você votaria?</label>
+      <hint>Não leia os nomes. Aguarde a resposta espontânea do entrevistado.</hint>
+      <itemset nodeset="instance('voto_espontaneo')/root/item">
+        <value ref="name"/>
+        <label ref="label"/>
+      </itemset>
+    </select1>
+    <input ref="/data/outro_espontaneo">
+      <label>Qual?</label>
+    </input>
+    <select1 ref="/data/voto_estimulado">
+      <label>Se a eleição para presidente fosse hoje, em qual destes candidatos você votaria?</label>
+      <hint>Leia os nomes: Lula, Flávio Bolsonaro, Zema, Caiado ou Outro.</hint>
+      <itemset nodeset="instance('voto_estimulado')/root/item">
+        <value ref="name"/>
+        <label ref="label"/>
+      </itemset>
+    </select1>
+    <select1 ref="/data/rejeicao">
+      <label>Em quem você NÃO votaria de jeito nenhum?</label>
+      <hint>Leia os nomes novamente, se necessário.</hint>
+      <itemset nodeset="instance('rejeicao')/root/item">
+        <value ref="name"/>
+        <label ref="label"/>
+      </itemset>
+    </select1>
+    <select1 ref="/data/avaliacao_governo">
+      <label>Como você avalia o governo atual?</label>
+      <itemset nodeset="instance('avaliacao_governo')/root/item">
+        <value ref="name"/>
+        <label ref="label"/>
+      </itemset>
+    </select1>
+    <input ref="/data/observacoes">
+      <label>Observações</label>
+      <hint>Registre qualquer observação relevante sobre a entrevista.</hint>
+    </input>
+  </h:body>
+</h:html>
